@@ -23,3 +23,5 @@ sap_hana_deployment_hana_sid = "{{ sap_hana_sid }}"
 ```
 
 to the **default/main.yml** File It would use the SID specified once.
+
+This allows to use one global variable for the same content.
