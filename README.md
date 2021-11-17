@@ -19,6 +19,7 @@ If we would add a variable **sap_hana_sid** to the group_vars/all.yml and add
 
 ```
 sap_hana_hsr_hana_sid = "{{ sap_hana_sid }}"
+sap_hana_deployment_hana_sid = "{{ sap_hana_sid }}"
 ```
 
 to the **default/main.yml** File It would use the SID specified once.
