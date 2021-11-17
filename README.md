@@ -16,8 +16,9 @@ Asuming **sap_hana_sid** is not used, we can define it as group_var and add this
 If we would now set each parameter it will work as it was before.
 If we would add a variable **sap_hana_sid** to the group_vars/all.yml and add
 
-===
-sap_hana_hsr_hana_sid = "{{ sap_hana_sid }}"
-===
 
-to the **default/main.yml** File It would use the SID specified once. 
+```
+sap_hana_hsr_hana_sid = "{{ sap_hana_sid }}"
+```
+
+to the **default/main.yml** File It would use the SID specified once.
