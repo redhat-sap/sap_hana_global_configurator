@@ -1,0 +1,8 @@
+sap_hana_sid: RH1
+sap_hana_instance_number: 00
+sap_netweaver_sid: RH1
+sap_netweaver_instance_number: 00
+sap_hana_uuid: 1010
+sap_hana_guid: 900
+sap_netweaver_uuid: 2010
+sap_netweaver_guid: 900
